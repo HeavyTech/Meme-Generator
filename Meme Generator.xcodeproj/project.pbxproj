@@ -14,6 +14,7 @@
 		823B34751D2C240A001545E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823B34731D2C240A001545E0 /* LaunchScreen.storyboard */; };
 		823B34801D2C240A001545E0 /* Meme_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B347F1D2C240A001545E0 /* Meme_GeneratorTests.swift */; };
 		823B348B1D2C240A001545E0 /* Meme_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B348A1D2C240A001545E0 /* Meme_GeneratorUITests.swift */; };
+		823B34991D2C2DFF001545E0 /* ImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B34981D2C2DFF001545E0 /* ImagePickerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		823B34861D2C240A001545E0 /* Meme GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		823B348A1D2C240A001545E0 /* Meme_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_GeneratorUITests.swift; sourceTree = "<group>"; };
 		823B348C1D2C240A001545E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823B34981D2C2DFF001545E0 /* ImagePickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				823B34711D2C240A001545E0 /* Assets.xcassets */,
 				823B34731D2C240A001545E0 /* LaunchScreen.storyboard */,
 				823B34761D2C240A001545E0 /* Info.plist */,
+				823B34981D2C2DFF001545E0 /* ImagePickerDelegate.swift */,
 			);
 			path = "Meme Generator";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				823B346D1D2C240A001545E0 /* ViewController.swift in Sources */,
 				823B346B1D2C240A001545E0 /* AppDelegate.swift in Sources */,
+				823B34991D2C2DFF001545E0 /* ImagePickerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
